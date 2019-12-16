@@ -11,7 +11,7 @@ The app offers a 20 trivia questions game, 10 questions per player. The players 
 The app was developed using MVP (Model View Presenter) architecture. While the trivia questions hasvebeen extracted from [Trivia API](https://opentdb.com/api_config.php).  
 
 ### Dependencies
-[Moya](https://github.com/Moya/Moya) library has been used for the network layer.
+[Moya](https://github.com/Moya/Moya) library was used for the network layer.
 
 ### Requirements
 * iOS 13.3
