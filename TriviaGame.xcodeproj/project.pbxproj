@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E95F9BD23A8364F0036040B /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E95F9BC23A8364F0036040B /* ExtensionString.swift */; };
+		9EA0AA1D23A79C8500614BA3 /* TriviaGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0AA1C23A79C8500614BA3 /* TriviaGameViewController.swift */; };
 		9EA1F62423A6B9210030F6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F62323A6B9210030F6DA /* AppDelegate.swift */; };
 		9EA1F62623A6B9210030F6DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F62523A6B9210030F6DA /* SceneDelegate.swift */; };
-		9EA1F62823A6B9210030F6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F62723A6B9210030F6DA /* ViewController.swift */; };
+		9EA1F62823A6B9210030F6DA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F62723A6B9210030F6DA /* WelcomeViewController.swift */; };
 		9EA1F62B23A6B9210030F6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA1F62923A6B9210030F6DA /* Main.storyboard */; };
 		9EA1F62D23A6B9220030F6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA1F62C23A6B9220030F6DA /* Assets.xcassets */; };
 		9EA1F63023A6B9220030F6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA1F62E23A6B9220030F6DA /* LaunchScreen.storyboard */; };
-		9EA1F63B23A6B9220030F6DA /* TriviaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F63A23A6B9220030F6DA /* TriviaGameTests.swift */; };
-		9EA1F64623A6B9220030F6DA /* TriviaGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F64523A6B9220030F6DA /* TriviaGameUITests.swift */; };
+		9EA1F65523A6CF980030F6DA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA1F65423A6CF980030F6DA /* Moya */; };
+		9EA1F65723A6CF980030F6DA /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA1F65623A6CF980030F6DA /* ReactiveMoya */; };
+		9EA1F65923A6CF980030F6DA /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9EA1F65823A6CF980030F6DA /* RxMoya */; };
+		9EA1F65F23A6D1940030F6DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F65E23A6D1940030F6DA /* Player.swift */; };
+		9EA1F66123A6D7C90030F6DA /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66023A6D7C90030F6DA /* WelcomePresenter.swift */; };
+		9EA1F66523A6DB030030F6DA /* TriviaGamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66423A6DB030030F6DA /* TriviaGamePresenter.swift */; };
+		9EA1F66723A6E0910030F6DA /* OpenTDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66623A6E0910030F6DA /* OpenTDB.swift */; };
+		9EA1F66923A6E1270030F6DA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66823A6E1270030F6DA /* Question.swift */; };
+		9EA1F66C23A6F7E90030F6DA /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66B23A6F7E90030F6DA /* AlertType.swift */; };
+		9EA1F66E23A6F83F0030F6DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1F66D23A6F83F0030F6DA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E95F9BC23A8364F0036040B /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		9EA0AA1C23A79C8500614BA3 /* TriviaGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaGameViewController.swift; sourceTree = "<group>"; };
 		9EA1F62023A6B9210030F6DA /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA1F62323A6B9210030F6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EA1F62523A6B9210030F6DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EA1F62723A6B9210030F6DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EA1F62723A6B9210030F6DA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9EA1F62A23A6B9210030F6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EA1F62C23A6B9220030F6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA1F62F23A6B9220030F6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EA1F63123A6B9220030F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA1F63623A6B9220030F6DA /* TriviaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA1F63A23A6B9220030F6DA /* TriviaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGameTests.swift; sourceTree = "<group>"; };
-		9EA1F63C23A6B9220030F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA1F64123A6B9220030F6DA /* TriviaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA1F64523A6B9220030F6DA /* TriviaGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGameUITests.swift; sourceTree = "<group>"; };
-		9EA1F64723A6B9220030F6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA1F65E23A6D1940030F6DA /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9EA1F66023A6D7C90030F6DA /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		9EA1F66423A6DB030030F6DA /* TriviaGamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGamePresenter.swift; sourceTree = "<group>"; };
+		9EA1F66623A6E0910030F6DA /* OpenTDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTDB.swift; sourceTree = "<group>"; };
+		9EA1F66823A6E1270030F6DA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9EA1F66B23A6F7E90030F6DA /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		9EA1F66D23A6F83F0030F6DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA1F65923A6CF980030F6DA /* RxMoya in Frameworks */,
+				9EA1F65523A6CF980030F6DA /* Moya in Frameworks */,
+				9EA1F65723A6CF980030F6DA /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				9EA1F62223A6B9210030F6DA /* TriviaGame */,
-				9EA1F63923A6B9220030F6DA /* TriviaGameTests */,
-				9EA1F64423A6B9220030F6DA /* TriviaGameUITests */,
 				9EA1F62123A6B9210030F6DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,9 +115,13 @@
 		9EA1F62223A6B9210030F6DA /* TriviaGame */ = {
 			isa = PBXGroup;
 			children = (
+				9EA1F66A23A6F7D50030F6DA /* Helpers */,
+				9EA1F65C23A6CFCE0030F6DA /* Network */,
+				9EA1F65D23A6CFD40030F6DA /* Models */,
+				9EA1F65B23A6CFC60030F6DA /* Presenters */,
+				9EA1F65A23A6CFC00030F6DA /* Views */,
 				9EA1F62323A6B9210030F6DA /* AppDelegate.swift */,
 				9EA1F62523A6B9210030F6DA /* SceneDelegate.swift */,
-				9EA1F62723A6B9210030F6DA /* ViewController.swift */,
 				9EA1F62923A6B9210030F6DA /* Main.storyboard */,
 				9EA1F62C23A6B9220030F6DA /* Assets.xcassets */,
 				9EA1F62E23A6B9220030F6DA /* LaunchScreen.storyboard */,
@@ -110,22 +130,49 @@
 			path = TriviaGame;
 			sourceTree = "<group>";
 		};
-		9EA1F63923A6B9220030F6DA /* TriviaGameTests */ = {
+		9EA1F65A23A6CFC00030F6DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9EA1F63A23A6B9220030F6DA /* TriviaGameTests.swift */,
-				9EA1F63C23A6B9220030F6DA /* Info.plist */,
+				9EA1F62723A6B9210030F6DA /* WelcomeViewController.swift */,
+				9EA0AA1C23A79C8500614BA3 /* TriviaGameViewController.swift */,
 			);
-			path = TriviaGameTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		9EA1F64423A6B9220030F6DA /* TriviaGameUITests */ = {
+		9EA1F65B23A6CFC60030F6DA /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				9EA1F64523A6B9220030F6DA /* TriviaGameUITests.swift */,
-				9EA1F64723A6B9220030F6DA /* Info.plist */,
+				9EA1F66023A6D7C90030F6DA /* WelcomePresenter.swift */,
+				9EA1F66423A6DB030030F6DA /* TriviaGamePresenter.swift */,
 			);
-			path = TriviaGameUITests;
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		9EA1F65C23A6CFCE0030F6DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1F66623A6E0910030F6DA /* OpenTDB.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9EA1F65D23A6CFD40030F6DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1F65E23A6D1940030F6DA /* Player.swift */,
+				9EA1F66823A6E1270030F6DA /* Question.swift */,
+				9EA1F66B23A6F7E90030F6DA /* AlertType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EA1F66A23A6F7D50030F6DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1F66D23A6F83F0030F6DA /* Constants.swift */,
+				9E95F9BC23A8364F0036040B /* ExtensionString.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +191,11 @@
 			dependencies = (
 			);
 			name = TriviaGame;
+			packageProductDependencies = (
+				9EA1F65423A6CF980030F6DA /* Moya */,
+				9EA1F65623A6CF980030F6DA /* ReactiveMoya */,
+				9EA1F65823A6CF980030F6DA /* RxMoya */,
+			);
 			productName = TriviaGame;
 			productReference = 9EA1F62023A6B9210030F6DA /* TriviaGame.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +268,9 @@
 				Base,
 			);
 			mainGroup = 9EA1F61723A6B9210030F6DA;
+			packageReferences = (
+				9EA1F65323A6CF980030F6DA /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 9EA1F62123A6B9210030F6DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA1F62823A6B9210030F6DA /* ViewController.swift in Sources */,
+				9EA1F65F23A6D1940030F6DA /* Player.swift in Sources */,
+				9EA1F66E23A6F83F0030F6DA /* Constants.swift in Sources */,
+				9EA1F66123A6D7C90030F6DA /* WelcomePresenter.swift in Sources */,
+				9EA1F66523A6DB030030F6DA /* TriviaGamePresenter.swift in Sources */,
+				9EA1F66923A6E1270030F6DA /* Question.swift in Sources */,
+				9EA0AA1D23A79C8500614BA3 /* TriviaGameViewController.swift in Sources */,
+				9EA1F62823A6B9210030F6DA /* WelcomeViewController.swift in Sources */,
+				9EA1F66723A6E0910030F6DA /* OpenTDB.swift in Sources */,
+				9E95F9BD23A8364F0036040B /* ExtensionString.swift in Sources */,
+				9EA1F66C23A6F7E90030F6DA /* AlertType.swift in Sources */,
 				9EA1F62423A6B9210030F6DA /* AppDelegate.swift in Sources */,
 				9EA1F62623A6B9210030F6DA /* SceneDelegate.swift in Sources */,
 			);
@@ -269,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA1F63B23A6B9220030F6DA /* TriviaGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA1F64623A6B9220030F6DA /* TriviaGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +646,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EA1F65323A6CF980030F6DA /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EA1F65423A6CF980030F6DA /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA1F65323A6CF980030F6DA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		9EA1F65623A6CF980030F6DA /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA1F65323A6CF980030F6DA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		9EA1F65823A6CF980030F6DA /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EA1F65323A6CF980030F6DA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EA1F61823A6B9210030F6DA /* Project object */;
 }
